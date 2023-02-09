@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ConversationViewController.swift
 //  Messenger
 //
 //  Created by Andrey on 2/9/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ConversationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
