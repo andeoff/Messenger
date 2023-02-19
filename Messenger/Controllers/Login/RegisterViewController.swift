@@ -218,6 +218,11 @@ class RegisterViewController: UIViewController {
             return
         }
         
+        if password.count <= 6 {
+            alertUserRegistrationError(message: "Password must be more than 6 simbols.")
+        }
+    
+        
         //Firebase log in
         
         DatabaseManager.shared.userExists(with: email) { [weak self] exists in
@@ -243,11 +248,11 @@ class RegisterViewController: UIViewController {
         }
     }
     
-//    @objc private func didTapRegister () {
-//        let vc = RegisterViewController()
-//        vc.title = "Create Account"
-//        navigationController?.pushViewController(vc, animated: true)
-//    }
+    @objc private func didTapRegister () {
+        let vc = RegisterViewController()
+        vc.title = "Create Account"
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
 }
 extension RegisterViewController {

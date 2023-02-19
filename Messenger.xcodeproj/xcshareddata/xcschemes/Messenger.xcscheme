@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF6A86458451B3E35E102FD0222C2690"
-               BuildableName = "Pods_Messenger.framework"
-               BlueprintName = "Pods-Messenger"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "770F2DB129956D84005D8AAF"
+               BuildableName = "Messenger.app"
+               BlueprintName = "Messenger"
+               ReferencedContainer = "container:Messenger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "770F2DB129956D84005D8AAF"
+            BuildableName = "Messenger.app"
+            BlueprintName = "Messenger"
+            ReferencedContainer = "container:Messenger.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "770F2DB129956D84005D8AAF"
+            BuildableName = "Messenger.app"
+            BlueprintName = "Messenger"
+            ReferencedContainer = "container:Messenger.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

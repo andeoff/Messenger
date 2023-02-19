@@ -152,10 +152,6 @@ class LoginViewController: UIViewController {
             return
         }
         
-        if password.count <= 6 {
-            alertUserLoginError(withTitle: "Woops",
-                                message: "Password must be more than 6 simbols.")
-        }
         
         //Firebase log in
         FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in

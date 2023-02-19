@@ -17,7 +17,13 @@ class ConversationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+         
+//        do {
+//            try FirebaseAuth.Auth.auth().signOut()
+//        } catch  {
+//            print("couldn't sign out")
+//        }
+
     }
     
     private func validateAuth() {
